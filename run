@@ -1,0 +1,9 @@
+del parser.tab.c parser.tab.h trace_lexer.exe parser_main.exe lex.yy.c *.o
+
+win_bison -d parser.y
+win_flex -o lex.yy.c trace_lexer.l
+
+gcc -o trace_lexer trace_lexer_main.c parser.tab.c lex.yy.c
+gcc -o parser_main parser_main.c parser_lexer.c parser.tab.c
+
+trace_lexer
