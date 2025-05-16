@@ -1,0 +1,14 @@
+# Ignore compiled objects
+*.o
+
+# Ignore executables
+*.exe
+trace_lexer
+parser_main.exe
+
+# Ignore generated lexer/parser files (optional, if you want to regenerate them locally)
+lex.yy.c
+lex.yy.o
+parser.tab.c
+parser.tab.h
+parser.tab.o
