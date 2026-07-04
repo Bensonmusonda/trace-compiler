@@ -77,3 +77,6 @@ This is an educational project and a stepping stone toward building more complex
     
 - Mini virtual machine for execution
     
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details. In short: you're free to use, modify, and distribute this code, including commercially, as long as the original copyright notice is kept.
