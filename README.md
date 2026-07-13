@@ -3,7 +3,7 @@
 
 A lightweight custom compiler project built from the ground up in C using **Lex (Flex)** and **Yacc (Bison)**. This project is part of my compiler course and serves as a foundation for understanding key concepts of parsing, tokenization, and basic language design.
 
-## 🧠 Features
+## Features
 
 - Lexical analysis using Flex (`.l` file)  
 - Syntax analysis using Bison (`.y` file)  
@@ -12,14 +12,14 @@ A lightweight custom compiler project built from the ground up in C using **Lex 
 - Line number tracking  
 - Error handling  
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - C (GCC)  
 - Flex (Lexical analyzer)  
 - Bison (Yacc parser generator)  
 - MINGW64 (Windows environment for compilation)  
 
-## 🚀 How to Build
+## How to Build
 
 Ensure you have `flex`, `bison`, and `gcc` installed.
 
@@ -32,14 +32,14 @@ bison -d parser.y
 gcc -o trace_lexer trace_lexer_main.c lex.yy.c parser.tab.c line_num_wrapper.c -lfl
 ````
 
-## 🧪 Running
+## Running
 
 ```bash
 ./trace_lexer < source_code.txt
 ```
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 trace/
@@ -53,7 +53,7 @@ trace/
 └── tokens.txt            # Output of scanned tokens
 ```
 
-## 📚 Learning Goals
+## Learning Goals
 
 - Understand how compilers tokenize and parse code
     
@@ -62,12 +62,12 @@ trace/
 - Explore how programming languages interpret syntax
     
 
-## 🧑‍💻 Author
+## Author
 
 Benson Musonda  
 [GitHub](https://github.com/Bensonmusonda)
 
-## 📌 Notes
+## Notes
 
 This is an educational project and a stepping stone toward building more complex language tooling in the future. Stay tuned for extensions like:
 
